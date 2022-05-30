@@ -1,75 +1,23 @@
 
-2022-05-29 20:46:41.329734 ~ Model v1
-RandomForestClassifier: 0.85625
-LogisticRegression: 0.796875
-LinearDiscriminantAnalysis: 0.790625
-KNeighborsClassifier: 0.853125
-DecisionTreeClassifier: 0.840625
-SVC: 0.771875
+2022-05-30 11:35:39.574386 ~ Model v1
+RandomForestClassifier: 0.9
+LogisticRegression: 0.85
+LinearDiscriminantAnalysis: 0.85
+KNeighborsClassifier: 0.89375
+DecisionTreeClassifier: 0.86875
+SVC: 0.8125
 GaussianNB: 0.571875
-VotingClassifier: 0.840625
+VotingClassifier: 0.890625
 
 --------------------
 
 
-2022-05-29 20:47:53.634923 ~ Model v2
-RandomForestClassifier: 0.96875
-LogisticRegression: 0.953125
-LinearDiscriminantAnalysis: 0.8984375
-KNeighborsClassifier: 0.9921875
-DecisionTreeClassifier: 0.984375
-SVC: 0.9296875
-GaussianNB: 0.9296875
-VotingClassifier: 0.953125
-
---------------------
-
-
-2022-05-29 20:50:17.136175 ~ Model v3
-RandomForestClassifier: 1.0
-LogisticRegression: 1.0
-LinearDiscriminantAnalysis: 1.0
+2022-05-30 11:36:54.047425 ~ Model v2
+RandomForestClassifier: 0.9921875
+LogisticRegression: 0.9453125
+LinearDiscriminantAnalysis: 0.921875
 KNeighborsClassifier: 1.0
-DecisionTreeClassifier: 1.0
-SVC: 1.0
-GaussianNB: 1.0
-VotingClassifier: 1.0
-
---------------------
-
-
-2022-05-29 20:52:41.189509 ~ Model v4
-RandomForestClassifier: 0.9609375
-LogisticRegression: 0.953125
-LinearDiscriminantAnalysis: 0.8828125
-KNeighborsClassifier: 0.9609375
-DecisionTreeClassifier: 0.9375
-SVC: 0.9296875
-GaussianNB: 0.953125
-VotingClassifier: 0.953125
-
---------------------
-
-
-2022-05-29 20:55:05.232729 ~ Model v5
-RandomForestClassifier: 0.98046875
-LogisticRegression: 0.921875
-LinearDiscriminantAnalysis: 0.9140625
-KNeighborsClassifier: 0.9921875
 DecisionTreeClassifier: 0.984375
-SVC: 0.9296875
-GaussianNB: 0.90625
-VotingClassifier: 0.95703125
-
---------------------
-
-
-2022-05-29 20:57:29.452960 ~ Model v6
-RandomForestClassifier: 0.98046875
-LogisticRegression: 0.984375
-LinearDiscriminantAnalysis: 0.984375
-KNeighborsClassifier: 0.98046875
-DecisionTreeClassifier: 0.98046875
-SVC: 0.984375
-GaussianNB: 0.9765625
-VotingClassifier: 0.98046875
+SVC: 0.921875
+GaussianNB: 0.921875
+VotingClassifier: 0.9453125
