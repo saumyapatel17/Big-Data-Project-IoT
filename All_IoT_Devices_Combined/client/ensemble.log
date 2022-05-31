@@ -1,49 +1,2153 @@
 
-2022-05-30 11:27:33.406161 ~ Model v1
-RandomForestClassifier: 0.9875
-LogisticRegression: 0.875
-LinearDiscriminantAnalysis: 0.93125
-KNeighborsClassifier: 0.8625
+2022-05-31 07:00:40.702802 ~ Model v1
+RandomForestClassifier: 0.99375
+RandomForestClassifier accuracy : 0.99375
+RandomForestClassifier precision : 0.9938701923076924
+RandomForestClassifier recall : 0.99375
+RandomForestClassifier f1_score : 0.9937659388841663
+RandomForestClassifier train time : 0.1217191219329834, sec
+RandomForestClassifier test time : 0.010970354080200195, sec
+
+
+LogisticRegression: 0.89375
+LogisticRegression accuracy : 0.89375
+LogisticRegression precision : 0.8932613636363635
+LogisticRegression recall : 0.89375
+LogisticRegression f1_score : 0.8934665898096659
+LogisticRegression train time : 0.0468752384185791, sec
+LogisticRegression test time : 0.0019936561584472656, sec
+
+
+LinearDiscriminantAnalysis: 0.925
+LinearDiscriminantAnalysis accuracy : 0.925
+LinearDiscriminantAnalysis precision : 0.925
+LinearDiscriminantAnalysis recall : 0.925
+LinearDiscriminantAnalysis f1_score : 0.925
+LinearDiscriminantAnalysis train time : 0.0069806575775146484, sec
+LinearDiscriminantAnalysis test time : 0.001994609832763672, sec
+
+
+KNeighborsClassifier: 0.85
+KNeighborsClassifier accuracy : 0.85
+KNeighborsClassifier precision : 0.8667893961708394
+KNeighborsClassifier recall : 0.85
+KNeighborsClassifier f1_score : 0.8535258048032703
+KNeighborsClassifier train time : 0.004987478256225586, sec
+KNeighborsClassifier test time : 0.00698089599609375, sec
+
+
+DecisionTreeClassifier: 0.99375
+DecisionTreeClassifier accuracy : 0.99375
+DecisionTreeClassifier precision : 0.9938701923076924
+DecisionTreeClassifier recall : 0.99375
+DecisionTreeClassifier f1_score : 0.9937659388841663
+DecisionTreeClassifier train time : 0.003988742828369141, sec
+DecisionTreeClassifier test time : 0.0019948482513427734, sec
+
+
+SVC: 0.86875
+SVC accuracy : 0.86875
+SVC precision : 0.8869466145833333
+SVC recall : 0.86875
+SVC f1_score : 0.8720068928950159
+SVC train time : 0.008484601974487305, sec
+SVC test time : 0.004986763000488281, sec
+
+
+GaussianNB: 0.95
+GaussianNB accuracy : 0.95
+GaussianNB precision : 0.9508287779932992
+GaussianNB recall : 0.95
+GaussianNB f1_score : 0.9502492877492879
+GaussianNB train time : 0.003988504409790039, sec
+GaussianNB test time : 0.0019943714141845703, sec
+
+
+VotingClassifier: 0.95
+VotingClassifier accuracy : 0.95
+VotingClassifier precision : 0.9522510822510822
+VotingClassifier recall : 0.95
+VotingClassifier f1_score : 0.9504761065067889
+VotingClassifier train time : 0.18365716934204102, sec
+VotingClassifier test time : 0.024932384490966797, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:00:58.913411 ~ Model v2
+RandomForestClassifier: 0.96875
+RandomForestClassifier accuracy : 0.96875
+RandomForestClassifier precision : 0.96875
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.9841269841269841
+RandomForestClassifier train time : 0.08980631828308105, sec
+RandomForestClassifier test time : 0.010929584503173828, sec
+
+
+LogisticRegression: 0.90625
+LogisticRegression accuracy : 0.90625
+LogisticRegression precision : 0.9364583333333334
+LogisticRegression recall : 0.90625
+LogisticRegression f1_score : 0.9211065573770493
+LogisticRegression train time : 0.01667022705078125, sec
+LogisticRegression test time : 0.0009970664978027344, sec
+
+
+LinearDiscriminantAnalysis: 0.96875
+LinearDiscriminantAnalysis accuracy : 0.96875
+LinearDiscriminantAnalysis precision : 0.96875
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 0.9841269841269841
+LinearDiscriminantAnalysis train time : 0.0020363330841064453, sec
+LinearDiscriminantAnalysis test time : 0.0010008811950683594, sec
+
+
+KNeighborsClassifier: 0.96875
+KNeighborsClassifier accuracy : 0.96875
+KNeighborsClassifier precision : 0.96875
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.9841269841269841
+KNeighborsClassifier train time : 0.00099945068359375, sec
+KNeighborsClassifier test time : 0.001994609832763672, sec
+
+
 DecisionTreeClassifier: 0.96875
-SVC: 0.875
-GaussianNB: 0.9625
-VotingClassifier: 0.95625
+DecisionTreeClassifier accuracy : 0.96875
+DecisionTreeClassifier precision : 0.96875
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.9841269841269841
+DecisionTreeClassifier train time : 0.0019948482513427734, sec
+DecisionTreeClassifier test time : 0.000997304916381836, sec
+
+
+SVC: 0.96875
+SVC accuracy : 0.96875
+SVC precision : 0.96875
+SVC recall : 1.0
+SVC f1_score : 0.9841269841269841
+SVC train time : 0.0020189285278320312, sec
+SVC test time : 0.0009899139404296875, sec
+
+
+GaussianNB: 0.96875
+GaussianNB accuracy : 0.96875
+GaussianNB precision : 0.96875
+GaussianNB recall : 1.0
+GaussianNB f1_score : 0.9841269841269841
+GaussianNB train time : 0.0010461807250976562, sec
+GaussianNB test time : 0.0010218620300292969, sec
+
+
+VotingClassifier: 0.96875
+VotingClassifier accuracy : 0.96875
+VotingClassifier precision : 0.96875
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.9841269841269841
+VotingClassifier train time : 0.12465786933898926, sec
+VotingClassifier test time : 0.014917135238647461, sec
+
+
 
 --------------------
 
 
-2022-05-30 11:27:42.622972 ~ Model v2
+2022-05-31 07:01:08.155221 ~ Model v3
 RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.21943283081054688, sec
+RandomForestClassifier test time : 0.019946575164794922, sec
+
+
+LogisticRegression: 1.0
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.02293848991394043, sec
+LogisticRegression test time : 0.001995086669921875, sec
+
+
+LinearDiscriminantAnalysis: 1.0
+LinearDiscriminantAnalysis accuracy : 1.0
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 1.0
+LinearDiscriminantAnalysis train time : 0.003989458084106445, sec
+LinearDiscriminantAnalysis test time : 0.001995086669921875, sec
+
+
+KNeighborsClassifier: 0.5
+KNeighborsClassifier accuracy : 0.5
+KNeighborsClassifier precision : 0.5363636363636364
+KNeighborsClassifier recall : 0.5
+KNeighborsClassifier f1_score : 0.48412698412698413
+KNeighborsClassifier train time : 0.002991199493408203, sec
+KNeighborsClassifier test time : 0.0029921531677246094, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.002991914749145508, sec
+DecisionTreeClassifier test time : 0.001994609832763672, sec
+
+
+SVC: 0.4375
+SVC accuracy : 0.4375
+SVC precision : 0.4453125
+SVC recall : 0.4375
+SVC f1_score : 0.43970588235294117
+SVC train time : 0.003988742828369141, sec
+SVC test time : 0.0019948482513427734, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.0029921531677246094, sec
+GaussianNB test time : 0.0019948482513427734, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.256866455078125, sec
+VotingClassifier test time : 0.03490734100341797, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:02:22.297816 ~ Model v4
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.11476421356201172, sec
+RandomForestClassifier test time : 0.00897669792175293, sec
+
+
+LogisticRegression: 0.8671875
+LogisticRegression accuracy : 0.8671875
+LogisticRegression precision : 0.8695510176017602
+LogisticRegression recall : 0.8671875
+LogisticRegression f1_score : 0.8597739629480466
+LogisticRegression train time : 0.019995689392089844, sec
+LogisticRegression test time : 0.0009984970092773438, sec
+
+
+LinearDiscriminantAnalysis: 0.9375
+LinearDiscriminantAnalysis accuracy : 0.9375
+LinearDiscriminantAnalysis precision : 0.9370471014492753
+LinearDiscriminantAnalysis recall : 0.9375
+LinearDiscriminantAnalysis f1_score : 0.936998811998812
+LinearDiscriminantAnalysis train time : 0.004030942916870117, sec
+LinearDiscriminantAnalysis test time : 0.0019958019256591797, sec
+
+
+KNeighborsClassifier: 0.703125
+KNeighborsClassifier accuracy : 0.703125
+KNeighborsClassifier precision : 0.6632254464285714
+KNeighborsClassifier recall : 0.703125
+KNeighborsClassifier f1_score : 0.6588169233590024
+KNeighborsClassifier train time : 0.0029926300048828125, sec
+KNeighborsClassifier test time : 0.006979465484619141, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0030345916748046875, sec
+DecisionTreeClassifier test time : 0.000997304916381836, sec
+
+
+SVC: 0.703125
+SVC accuracy : 0.703125
+SVC precision : 0.703125
+SVC recall : 1.0
+SVC f1_score : 0.8256880733944955
+SVC train time : 0.014914751052856445, sec
+SVC test time : 0.00698089599609375, sec
+
+
+GaussianNB: 0.8359375
+GaussianNB accuracy : 0.8359375
+GaussianNB precision : 0.8585596422113149
+GaussianNB recall : 0.8359375
+GaussianNB f1_score : 0.8409699551112019
+GaussianNB train time : 0.0029904842376708984, sec
+GaussianNB test time : 0.001041412353515625, sec
+
+
+VotingClassifier: 0.96875
+VotingClassifier accuracy : 0.96875
+VotingClassifier precision : 0.9700797872340425
+VotingClassifier recall : 0.96875
+VotingClassifier f1_score : 0.9682216183574879
+VotingClassifier train time : 0.15866446495056152, sec
+VotingClassifier test time : 0.02593088150024414, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:03:35.986040 ~ Model v5
+RandomForestClassifier: 0.9921875
+RandomForestClassifier accuracy : 0.9921875
+RandomForestClassifier precision : 0.9923155737704918
+RandomForestClassifier recall : 0.9921875
+RandomForestClassifier f1_score : 0.992190847872666
+RandomForestClassifier train time : 0.11081671714782715, sec
+RandomForestClassifier test time : 0.009974479675292969, sec
+
+
+LogisticRegression: 0.9765625
+LogisticRegression accuracy : 0.9765625
+LogisticRegression precision : 0.9776785714285714
+LogisticRegression recall : 0.9765625
+LogisticRegression f1_score : 0.9765839904639647
+LogisticRegression train time : 0.018900632858276367, sec
+LogisticRegression test time : 0.0009975433349609375, sec
+
+
+LinearDiscriminantAnalysis: 0.9765625
+LinearDiscriminantAnalysis accuracy : 0.9765625
+LinearDiscriminantAnalysis precision : 0.9766565340211251
+LinearDiscriminantAnalysis recall : 0.9765625
+LinearDiscriminantAnalysis f1_score : 0.9765495614304116
+LinearDiscriminantAnalysis train time : 0.005018711090087891, sec
+LinearDiscriminantAnalysis test time : 0.0019659996032714844, sec
+
+
+KNeighborsClassifier: 0.796875
+KNeighborsClassifier accuracy : 0.796875
+KNeighborsClassifier precision : 0.8142830330330331
+KNeighborsClassifier recall : 0.796875
+KNeighborsClassifier f1_score : 0.7958312943479324
+KNeighborsClassifier train time : 0.0020372867584228516, sec
+KNeighborsClassifier test time : 0.004994869232177734, sec
+
+
+DecisionTreeClassifier: 0.984375
+DecisionTreeClassifier accuracy : 0.984375
+DecisionTreeClassifier precision : 0.9848790322580645
+DecisionTreeClassifier recall : 0.984375
+DecisionTreeClassifier f1_score : 0.9843864692928799
+DecisionTreeClassifier train time : 0.002990245819091797, sec
+DecisionTreeClassifier test time : 0.0019943714141845703, sec
+
+
+SVC: 0.9453125
+SVC accuracy : 0.9453125
+SVC precision : 0.9478128891656289
+SVC recall : 0.9453125
+SVC f1_score : 0.9450932778291705
+SVC train time : 0.007980108261108398, sec
+SVC test time : 0.003988981246948242, sec
+
+
+GaussianNB: 0.9609375
+GaussianNB accuracy : 0.9609375
+GaussianNB precision : 0.9636130136986301
+GaussianNB recall : 0.9609375
+GaussianNB f1_score : 0.9607809127351217
+GaussianNB train time : 0.003965854644775391, sec
+GaussianNB test time : 0.000997781753540039, sec
+
+
+VotingClassifier: 0.9921875
+VotingClassifier accuracy : 0.9921875
+VotingClassifier precision : 0.9923007246376812
+VotingClassifier recall : 0.9921875
+VotingClassifier f1_score : 0.9921831871434705
+VotingClassifier train time : 0.1577892303466797, sec
+VotingClassifier test time : 0.023440837860107422, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:04:12.657649 ~ Model v6
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.11963748931884766, sec
+RandomForestClassifier test time : 0.010971784591674805, sec
+
+
+LogisticRegression: 0.890625
+LogisticRegression accuracy : 0.890625
+LogisticRegression precision : 0.8960028160200251
+LogisticRegression recall : 0.890625
+LogisticRegression f1_score : 0.8866861135119561
+LogisticRegression train time : 0.022938251495361328, sec
+LogisticRegression test time : 0.0010399818420410156, sec
+
+
+LinearDiscriminantAnalysis: 0.9375
+LinearDiscriminantAnalysis accuracy : 0.9375
+LinearDiscriminantAnalysis precision : 0.9375
+LinearDiscriminantAnalysis recall : 0.9375
+LinearDiscriminantAnalysis f1_score : 0.9375
+LinearDiscriminantAnalysis train time : 0.0029909610748291016, sec
+LinearDiscriminantAnalysis test time : 0.0010333061218261719, sec
+
+
+KNeighborsClassifier: 0.625
+KNeighborsClassifier accuracy : 0.625
+KNeighborsClassifier precision : 0.575
+KNeighborsClassifier recall : 0.625
+KNeighborsClassifier f1_score : 0.578125
+KNeighborsClassifier train time : 0.0019948482513427734, sec
+KNeighborsClassifier test time : 0.0019960403442382812, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0020296573638916016, sec
+DecisionTreeClassifier test time : 0.0009617805480957031, sec
+
+
+SVC: 0.65625
+SVC accuracy : 0.65625
+SVC precision : 0.65625
+SVC recall : 1.0
+SVC f1_score : 0.7924528301886793
+SVC train time : 0.0029914379119873047, sec
+SVC test time : 0.00399017333984375, sec
+
+
+GaussianNB: 0.859375
+GaussianNB accuracy : 0.859375
+GaussianNB precision : 0.9002016129032258
+GaussianNB recall : 0.859375
+GaussianNB f1_score : 0.862877358490566
+GaussianNB train time : 0.003987550735473633, sec
+GaussianNB test time : 0.0019969940185546875, sec
+
+
+VotingClassifier: 0.96875
+VotingClassifier accuracy : 0.96875
+VotingClassifier precision : 0.9701704545454546
+VotingClassifier recall : 0.96875
+VotingClassifier f1_score : 0.9683693244739757
+VotingClassifier train time : 0.1760702133178711, sec
+VotingClassifier test time : 0.023936986923217773, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:26.366218 ~ Model v7
+RandomForestClassifier: 0.9921875
+RandomForestClassifier accuracy : 0.9921875
+RandomForestClassifier precision : 0.9923221982758621
+RandomForestClassifier recall : 0.9921875
+RandomForestClassifier f1_score : 0.9921937634905951
+RandomForestClassifier train time : 0.13306307792663574, sec
+RandomForestClassifier test time : 0.015019416809082031, sec
+
+
 LogisticRegression: 0.9375
-LinearDiscriminantAnalysis: 1.0
-KNeighborsClassifier: 1.0
-DecisionTreeClassifier: 1.0
-SVC: 1.0
-GaussianNB: 1.0
-VotingClassifier: 1.0
+LogisticRegression accuracy : 0.9375
+LogisticRegression precision : 0.9388207547169811
+LogisticRegression recall : 0.9375
+LogisticRegression f1_score : 0.9372198007471981
+LogisticRegression train time : 0.0199429988861084, sec
+LogisticRegression test time : 0.0010006427764892578, sec
+
+
+LinearDiscriminantAnalysis: 0.9921875
+LinearDiscriminantAnalysis accuracy : 0.9921875
+LinearDiscriminantAnalysis precision : 0.9923221982758621
+LinearDiscriminantAnalysis recall : 0.9921875
+LinearDiscriminantAnalysis f1_score : 0.9921937634905951
+LinearDiscriminantAnalysis train time : 0.007979154586791992, sec
+LinearDiscriminantAnalysis test time : 0.002991914749145508, sec
+
+
+KNeighborsClassifier: 0.6015625
+KNeighborsClassifier accuracy : 0.6015625
+KNeighborsClassifier precision : 0.6280649038461538
+KNeighborsClassifier recall : 0.6015625
+KNeighborsClassifier f1_score : 0.5979769283746557
+KNeighborsClassifier train time : 0.008489847183227539, sec
+KNeighborsClassifier test time : 0.008975505828857422, sec
+
+
+DecisionTreeClassifier: 0.96875
+DecisionTreeClassifier accuracy : 0.96875
+DecisionTreeClassifier precision : 0.9691080323785803
+DecisionTreeClassifier recall : 0.96875
+DecisionTreeClassifier f1_score : 0.9686879960317459
+DecisionTreeClassifier train time : 0.008975744247436523, sec
+DecisionTreeClassifier test time : 0.001995086669921875, sec
+
+
+SVC: 0.5546875
+SVC accuracy : 0.5546875
+SVC precision : 0.5546875
+SVC recall : 1.0
+SVC f1_score : 0.7135678391959799
+SVC train time : 0.020944833755493164, sec
+SVC test time : 0.008975505828857422, sec
+
+
+GaussianNB: 0.9921875
+GaussianNB accuracy : 0.9921875
+GaussianNB precision : 0.9923221982758621
+GaussianNB recall : 0.9921875
+GaussianNB f1_score : 0.9921937634905951
+GaussianNB train time : 0.0029914379119873047, sec
+GaussianNB test time : 0.000997781753540039, sec
+
+
+VotingClassifier: 0.9765625
+VotingClassifier accuracy : 0.9765625
+VotingClassifier precision : 0.9766400049603174
+VotingClassifier recall : 0.9765625
+VotingClassifier f1_score : 0.9765407435484869
+VotingClassifier train time : 0.17253851890563965, sec
+VotingClassifier test time : 0.03191399574279785, sec
+
+
 
 --------------------
 
 
-2022-05-30 11:27:45.091074 ~ Model v3
-RandomForestClassifier: 0.75
-LogisticRegression: 1.0
-LinearDiscriminantAnalysis: 0.25
-KNeighborsClassifier: 1.0
-DecisionTreeClassifier: 0.5
-SVC: 1.0
-GaussianNB: 1.0
-VotingClassifier: 1.0
+2022-05-31 07:05:28.705436 ~ Model v8
+RandomForestClassifier: 0.8
+RandomForestClassifier accuracy : 0.8
+RandomForestClassifier precision : 0.8
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.888888888888889
+RandomForestClassifier train time : 0.09474706649780273, sec
+RandomForestClassifier test time : 0.010971307754516602, sec
+
+
+LogisticRegression: 0.4
+LogisticRegression accuracy : 0.4
+LogisticRegression precision : 0.5333333333333333
+LogisticRegression recall : 0.4
+LogisticRegression f1_score : 0.4571428571428572
+LogisticRegression train time : 0.009018659591674805, sec
+LogisticRegression test time : 0.0, sec
+
+
+LinearDiscriminantAnalysis: 0.8
+LinearDiscriminantAnalysis accuracy : 0.8
+LinearDiscriminantAnalysis precision : 0.9
+LinearDiscriminantAnalysis recall : 0.8
+LinearDiscriminantAnalysis f1_score : 0.819047619047619
+LinearDiscriminantAnalysis train time : 0.001039743423461914, sec
+LinearDiscriminantAnalysis test time : 0.0009968280792236328, sec
+
+
+KNeighborsClassifier: 0.8
+KNeighborsClassifier accuracy : 0.8
+KNeighborsClassifier precision : 0.8
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.888888888888889
+KNeighborsClassifier train time : 0.000997304916381836, sec
+KNeighborsClassifier test time : 0.0009999275207519531, sec
+
+
+DecisionTreeClassifier: 0.8
+DecisionTreeClassifier accuracy : 0.8
+DecisionTreeClassifier precision : 0.8
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.888888888888889
+DecisionTreeClassifier train time : 0.0009975433349609375, sec
+DecisionTreeClassifier test time : 0.0009970664978027344, sec
+
+
+SVC: 0.8
+SVC accuracy : 0.8
+SVC precision : 0.8
+SVC recall : 1.0
+SVC f1_score : 0.888888888888889
+SVC train time : 0.0019936561584472656, sec
+SVC test time : 0.0, sec
+
+
+GaussianNB: 0.8
+GaussianNB accuracy : 0.8
+GaussianNB precision : 0.8
+GaussianNB recall : 1.0
+GaussianNB f1_score : 0.888888888888889
+GaussianNB train time : 0.0009944438934326172, sec
+GaussianNB test time : 0.0009992122650146484, sec
+
+
+VotingClassifier: 0.8
+VotingClassifier accuracy : 0.8
+VotingClassifier precision : 0.8
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.888888888888889
+VotingClassifier train time : 0.10671377182006836, sec
+VotingClassifier test time : 0.014008045196533203, sec
+
+
 
 --------------------
 
 
-2022-05-30 11:28:03.454143 ~ Model v4
+2022-05-31 07:05:31.018604 ~ Model v9
 RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.09197616577148438, sec
+RandomForestClassifier test time : 0.007936954498291016, sec
+
+
 LogisticRegression: 1.0
-LinearDiscriminantAnalysis: 1.0
-KNeighborsClassifier: 0.5625
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.005984306335449219, sec
+LogisticRegression test time : 0.0009970664978027344, sec
+
+
+LinearDiscriminantAnalysis: 0.8
+LinearDiscriminantAnalysis accuracy : 0.8
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 0.8
+LinearDiscriminantAnalysis f1_score : 0.888888888888889
+LinearDiscriminantAnalysis train time : 0.001996278762817383, sec
+LinearDiscriminantAnalysis test time : 0.0, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0009992122650146484, sec
+KNeighborsClassifier test time : 0.0020363330841064453, sec
+
+
 DecisionTreeClassifier: 1.0
-SVC: 0.5625
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0009546279907226562, sec
+DecisionTreeClassifier test time : 0.0010402202606201172, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0009558200836181641, sec
+SVC test time : 0.001039743423461914, sec
+
+
 GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.002035379409790039, sec
+GaussianNB test time : 0.0, sec
+
+
 VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.09974861145019531, sec
+VotingClassifier test time : 0.014911651611328125, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:35.525036 ~ Model v10
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.09579586982727051, sec
+RandomForestClassifier test time : 0.010607242584228516, sec
+
+
+LogisticRegression: 1.0
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.012964248657226562, sec
+LogisticRegression test time : 0.0010402202606201172, sec
+
+
+LinearDiscriminantAnalysis: 0.875
+LinearDiscriminantAnalysis accuracy : 0.875
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 0.875
+LinearDiscriminantAnalysis f1_score : 0.9333333333333333
+LinearDiscriminantAnalysis train time : 0.0010416507720947266, sec
+LinearDiscriminantAnalysis test time : 0.0009522438049316406, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0009884834289550781, sec
+KNeighborsClassifier test time : 0.000997304916381836, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0009992122650146484, sec
+DecisionTreeClassifier test time : 0.0009975433349609375, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0019948482513427734, sec
+SVC test time : 0.0009975433349609375, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.001994609832763672, sec
+GaussianNB test time : 0.0009968280792236328, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.12670636177062988, sec
+VotingClassifier test time : 0.016957521438598633, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:37.683851 ~ Model v11
+RandomForestClassifier: 0.9166666666666666
+RandomForestClassifier accuracy : 0.9166666666666666
+RandomForestClassifier precision : 0.9166666666666665
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.9565217391304348
+RandomForestClassifier train time : 0.10327553749084473, sec
+RandomForestClassifier test time : 0.007976531982421875, sec
+
+
+LogisticRegression: 0.9166666666666666
+LogisticRegression accuracy : 0.9166666666666666
+LogisticRegression precision : 0.9166666666666665
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 0.9565217391304348
+LogisticRegression train time : 0.01695418357849121, sec
+LogisticRegression test time : 0.00099945068359375, sec
+
+
+LinearDiscriminantAnalysis: 0.8333333333333334
+LinearDiscriminantAnalysis accuracy : 0.8333333333333334
+LinearDiscriminantAnalysis precision : 0.8333333333333334
+LinearDiscriminantAnalysis recall : 0.8333333333333334
+LinearDiscriminantAnalysis f1_score : 0.8333333333333334
+LinearDiscriminantAnalysis train time : 0.001994609832763672, sec
+LinearDiscriminantAnalysis test time : 0.0009975433349609375, sec
+
+
+KNeighborsClassifier: 0.9166666666666666
+KNeighborsClassifier accuracy : 0.9166666666666666
+KNeighborsClassifier precision : 0.9166666666666665
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.9565217391304348
+KNeighborsClassifier train time : 0.0009980201721191406, sec
+KNeighborsClassifier test time : 0.0029952526092529297, sec
+
+
+DecisionTreeClassifier: 0.9166666666666666
+DecisionTreeClassifier accuracy : 0.9166666666666666
+DecisionTreeClassifier precision : 0.9166666666666665
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.9565217391304348
+DecisionTreeClassifier train time : 0.001994609832763672, sec
+DecisionTreeClassifier test time : 0.0, sec
+
+
+SVC: 0.9166666666666666
+SVC accuracy : 0.9166666666666666
+SVC precision : 0.9166666666666665
+SVC recall : 1.0
+SVC f1_score : 0.9565217391304348
+SVC train time : 0.001995086669921875, sec
+SVC test time : 0.000997304916381836, sec
+
+
+GaussianNB: 0.8333333333333334
+GaussianNB accuracy : 0.8333333333333334
+GaussianNB precision : 0.8333333333333334
+GaussianNB recall : 0.8333333333333334
+GaussianNB f1_score : 0.8333333333333334
+GaussianNB train time : 0.0009975433349609375, sec
+GaussianNB test time : 0.0009975433349609375, sec
+
+
+VotingClassifier: 0.9166666666666666
+VotingClassifier accuracy : 0.9166666666666666
+VotingClassifier precision : 0.9166666666666665
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.9565217391304348
+VotingClassifier train time : 0.12370681762695312, sec
+VotingClassifier test time : 0.01300811767578125, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:40.145446 ~ Model v12
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.10537886619567871, sec
+RandomForestClassifier test time : 0.008928537368774414, sec
+
+
+LogisticRegression: 0.8
+LogisticRegression accuracy : 0.8
+LogisticRegression precision : 1.0
+LogisticRegression recall : 0.8
+LogisticRegression f1_score : 0.888888888888889
+LogisticRegression train time : 0.011969566345214844, sec
+LogisticRegression test time : 0.0009953975677490234, sec
+
+
+LinearDiscriminantAnalysis: 0.8
+LinearDiscriminantAnalysis accuracy : 0.8
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 0.8
+LinearDiscriminantAnalysis f1_score : 0.888888888888889
+LinearDiscriminantAnalysis train time : 0.0019965171813964844, sec
+LinearDiscriminantAnalysis test time : 0.0009970664978027344, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0010380744934082031, sec
+KNeighborsClassifier test time : 0.0009968280792236328, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0019524097442626953, sec
+DecisionTreeClassifier test time : 0.0009965896606445312, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0009961128234863281, sec
+SVC test time : 0.000997304916381836, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.0009975433349609375, sec
+GaussianNB test time : 0.0009970664978027344, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.11283659934997559, sec
+VotingClassifier test time : 0.016954898834228516, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:42.701605 ~ Model v13
+RandomForestClassifier: 0.6
+RandomForestClassifier accuracy : 0.6
+RandomForestClassifier precision : 0.6
+RandomForestClassifier recall : 0.6
+RandomForestClassifier f1_score : 0.6
+RandomForestClassifier train time : 0.0967409610748291, sec
+RandomForestClassifier test time : 0.009974241256713867, sec
+
+
+LogisticRegression: 0.6
+LogisticRegression accuracy : 0.6
+LogisticRegression precision : 0.6
+LogisticRegression recall : 0.6
+LogisticRegression f1_score : 0.6
+LogisticRegression train time : 0.0109710693359375, sec
+LogisticRegression test time : 0.000997304916381836, sec
+
+
+LinearDiscriminantAnalysis: 0.8
+LinearDiscriminantAnalysis accuracy : 0.8
+LinearDiscriminantAnalysis precision : 0.9
+LinearDiscriminantAnalysis recall : 0.8
+LinearDiscriminantAnalysis f1_score : 0.819047619047619
+LinearDiscriminantAnalysis train time : 0.0009975433349609375, sec
+LinearDiscriminantAnalysis test time : 0.000997304916381836, sec
+
+
+KNeighborsClassifier: 0.8
+KNeighborsClassifier accuracy : 0.8
+KNeighborsClassifier precision : 0.8
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.888888888888889
+KNeighborsClassifier train time : 0.001994609832763672, sec
+KNeighborsClassifier test time : 0.000997304916381836, sec
+
+
+DecisionTreeClassifier: 0.6
+DecisionTreeClassifier accuracy : 0.6
+DecisionTreeClassifier precision : 0.6
+DecisionTreeClassifier recall : 0.6
+DecisionTreeClassifier f1_score : 0.6
+DecisionTreeClassifier train time : 0.0010380744934082031, sec
+DecisionTreeClassifier test time : 0.0019519329071044922, sec
+
+
+SVC: 0.8
+SVC accuracy : 0.8
+SVC precision : 0.8
+SVC recall : 1.0
+SVC f1_score : 0.888888888888889
+SVC train time : 0.0019941329956054688, sec
+SVC test time : 0.0009961128234863281, sec
+
+
+GaussianNB: 0.6
+GaussianNB accuracy : 0.6
+GaussianNB precision : 0.6
+GaussianNB recall : 0.6
+GaussianNB f1_score : 0.6
+GaussianNB train time : 0.000993490219116211, sec
+GaussianNB test time : 0.0009963512420654297, sec
+
+
+VotingClassifier: 0.8
+VotingClassifier accuracy : 0.8
+VotingClassifier precision : 0.8
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.888888888888889
+VotingClassifier train time : 0.11787581443786621, sec
+VotingClassifier test time : 0.01296687126159668, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:47.328368 ~ Model v14
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.09475135803222656, sec
+RandomForestClassifier test time : 0.00797891616821289, sec
+
+
+LogisticRegression: 0.75
+LogisticRegression accuracy : 0.75
+LogisticRegression precision : 1.0
+LogisticRegression recall : 0.75
+LogisticRegression f1_score : 0.8571428571428571
+LogisticRegression train time : 0.009019136428833008, sec
+LogisticRegression test time : 0.000997304916381836, sec
+
+
+LinearDiscriminantAnalysis: 0.875
+LinearDiscriminantAnalysis accuracy : 0.875
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 0.875
+LinearDiscriminantAnalysis f1_score : 0.9333333333333333
+LinearDiscriminantAnalysis train time : 0.0019948482513427734, sec
+LinearDiscriminantAnalysis test time : 0.0009975433349609375, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0019981861114501953, sec
+KNeighborsClassifier test time : 0.0020356178283691406, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0009970664978027344, sec
+DecisionTreeClassifier test time : 0.000997304916381836, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0009968280792236328, sec
+SVC test time : 0.0009984970092773438, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.0020444393157958984, sec
+GaussianNB test time : 0.0, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.11668229103088379, sec
+VotingClassifier test time : 0.01392221450805664, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:50.210240 ~ Model v15
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.0917959213256836, sec
+RandomForestClassifier test time : 0.008940696716308594, sec
+
+
+LogisticRegression: 0.8
+LogisticRegression accuracy : 0.8
+LogisticRegression precision : 1.0
+LogisticRegression recall : 0.8
+LogisticRegression f1_score : 0.888888888888889
+LogisticRegression train time : 0.012965917587280273, sec
+LogisticRegression test time : 0.0010380744934082031, sec
+
+
+LinearDiscriminantAnalysis: 0.4
+LinearDiscriminantAnalysis accuracy : 0.4
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 0.4
+LinearDiscriminantAnalysis f1_score : 0.5714285714285715
+LinearDiscriminantAnalysis train time : 0.001031637191772461, sec
+LinearDiscriminantAnalysis test time : 0.0009984970092773438, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.001032114028930664, sec
+KNeighborsClassifier test time : 0.0009970664978027344, sec
+
+
+DecisionTreeClassifier: 0.8
+DecisionTreeClassifier accuracy : 0.8
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 0.8
+DecisionTreeClassifier f1_score : 0.888888888888889
+DecisionTreeClassifier train time : 0.0009984970092773438, sec
+DecisionTreeClassifier test time : 0.0009968280792236328, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0009970664978027344, sec
+SVC test time : 0.000997304916381836, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.0020351409912109375, sec
+GaussianNB test time : 0.000997304916381836, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.10814571380615234, sec
+VotingClassifier test time : 0.014918327331542969, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:53.268134 ~ Model v16
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.09877967834472656, sec
+RandomForestClassifier test time : 0.009931325912475586, sec
+
+
+LogisticRegression: 1.0
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.015930652618408203, sec
+LogisticRegression test time : 0.0009992122650146484, sec
+
+
+LinearDiscriminantAnalysis: 1.0
+LinearDiscriminantAnalysis accuracy : 1.0
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 1.0
+LinearDiscriminantAnalysis train time : 0.0020372867584228516, sec
+LinearDiscriminantAnalysis test time : 0.0, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0009553432464599609, sec
+KNeighborsClassifier test time : 0.0020380020141601562, sec
+
+
+DecisionTreeClassifier: 0.8333333333333334
+DecisionTreeClassifier accuracy : 0.8333333333333334
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 0.8333333333333334
+DecisionTreeClassifier f1_score : 0.9090909090909091
+DecisionTreeClassifier train time : 0.0020749568939208984, sec
+DecisionTreeClassifier test time : 0.0009951591491699219, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.0019540786743164062, sec
+SVC test time : 0.0, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.0010313987731933594, sec
+GaussianNB test time : 0.0009970664978027344, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.12264490127563477, sec
+VotingClassifier test time : 0.014003753662109375, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:56.431482 ~ Model v17
+RandomForestClassifier: 0.8333333333333334
+RandomForestClassifier accuracy : 0.8333333333333334
+RandomForestClassifier precision : 0.8333333333333334
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.909090909090909
+RandomForestClassifier train time : 0.15059494972229004, sec
+RandomForestClassifier test time : 0.00997304916381836, sec
+
+
+LogisticRegression: 0.6666666666666666
+LogisticRegression accuracy : 0.6666666666666666
+LogisticRegression precision : 0.6666666666666666
+LogisticRegression recall : 0.6666666666666666
+LogisticRegression f1_score : 0.6666666666666669
+LogisticRegression train time : 0.012964725494384766, sec
+LogisticRegression test time : 0.0010387897491455078, sec
+
+
+LinearDiscriminantAnalysis: 0.16666666666666666
+LinearDiscriminantAnalysis accuracy : 0.16666666666666666
+LinearDiscriminantAnalysis precision : 0.4166666666666667
+LinearDiscriminantAnalysis recall : 0.16666666666666666
+LinearDiscriminantAnalysis f1_score : 0.23809523809523814
+LinearDiscriminantAnalysis train time : 0.0020067691802978516, sec
+LinearDiscriminantAnalysis test time : 0.0009815692901611328, sec
+
+
+KNeighborsClassifier: 0.8333333333333334
+KNeighborsClassifier accuracy : 0.8333333333333334
+KNeighborsClassifier precision : 0.8333333333333334
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.909090909090909
+KNeighborsClassifier train time : 0.0010352134704589844, sec
+KNeighborsClassifier test time : 0.0009930133819580078, sec
+
+
+DecisionTreeClassifier: 0.6666666666666666
+DecisionTreeClassifier accuracy : 0.6666666666666666
+DecisionTreeClassifier precision : 0.8888888888888888
+DecisionTreeClassifier recall : 0.6666666666666666
+DecisionTreeClassifier f1_score : 0.7083333333333334
+DecisionTreeClassifier train time : 0.0019953250885009766, sec
+DecisionTreeClassifier test time : 0.0, sec
+
+
+SVC: 0.8333333333333334
+SVC accuracy : 0.8333333333333334
+SVC precision : 0.8333333333333334
+SVC recall : 1.0
+SVC f1_score : 0.909090909090909
+SVC train time : 0.002031087875366211, sec
+SVC test time : 0.0009944438934326172, sec
+
+
+GaussianNB: 0.8333333333333334
+GaussianNB accuracy : 0.8333333333333334
+GaussianNB precision : 0.8333333333333334
+GaussianNB recall : 1.0
+GaussianNB f1_score : 0.909090909090909
+GaussianNB train time : 0.0020287036895751953, sec
+GaussianNB test time : 0.0009970664978027344, sec
+
+
+VotingClassifier: 0.8333333333333334
+VotingClassifier accuracy : 0.8333333333333334
+VotingClassifier precision : 0.8333333333333334
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.909090909090909
+VotingClassifier train time : 0.13140583038330078, sec
+VotingClassifier test time : 0.014960050582885742, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:05:59.919187 ~ Model v18
+RandomForestClassifier: 0.8333333333333334
+RandomForestClassifier accuracy : 0.8333333333333334
+RandomForestClassifier precision : 0.8333333333333334
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.909090909090909
+RandomForestClassifier train time : 0.11269807815551758, sec
+RandomForestClassifier test time : 0.01096796989440918, sec
+
+
+LogisticRegression: 0.8333333333333334
+LogisticRegression accuracy : 0.8333333333333334
+LogisticRegression precision : 0.8333333333333334
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 0.909090909090909
+LogisticRegression train time : 0.021941661834716797, sec
+LogisticRegression test time : 0.001994609832763672, sec
+
+
+LinearDiscriminantAnalysis: 0.8333333333333334
+LinearDiscriminantAnalysis accuracy : 0.8333333333333334
+LinearDiscriminantAnalysis precision : 0.8333333333333334
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 0.909090909090909
+LinearDiscriminantAnalysis train time : 0.001994609832763672, sec
+LinearDiscriminantAnalysis test time : 0.000997304916381836, sec
+
+
+KNeighborsClassifier: 0.8333333333333334
+KNeighborsClassifier accuracy : 0.8333333333333334
+KNeighborsClassifier precision : 0.8333333333333334
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.909090909090909
+KNeighborsClassifier train time : 0.0009980201721191406, sec
+KNeighborsClassifier test time : 0.001993417739868164, sec
+
+
+DecisionTreeClassifier: 0.8333333333333334
+DecisionTreeClassifier accuracy : 0.8333333333333334
+DecisionTreeClassifier precision : 0.8333333333333334
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.909090909090909
+DecisionTreeClassifier train time : 0.0010399818420410156, sec
+DecisionTreeClassifier test time : 0.0009570121765136719, sec
+
+
+SVC: 0.8333333333333334
+SVC accuracy : 0.8333333333333334
+SVC precision : 0.8333333333333334
+SVC recall : 1.0
+SVC f1_score : 0.909090909090909
+SVC train time : 0.0010464191436767578, sec
+SVC test time : 0.0009927749633789062, sec
+
+
+GaussianNB: 0.8333333333333334
+GaussianNB accuracy : 0.8333333333333334
+GaussianNB precision : 0.8333333333333334
+GaussianNB recall : 1.0
+GaussianNB f1_score : 0.909090909090909
+GaussianNB train time : 0.0010385513305664062, sec
+GaussianNB test time : 0.0009551048278808594, sec
+
+
+VotingClassifier: 0.8333333333333334
+VotingClassifier accuracy : 0.8333333333333334
+VotingClassifier precision : 0.8333333333333334
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.909090909090909
+VotingClassifier train time : 0.13263797760009766, sec
+VotingClassifier test time : 0.0249330997467041, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:06:03.823956 ~ Model v19
+RandomForestClassifier: 0.8571428571428571
+RandomForestClassifier accuracy : 0.8571428571428571
+RandomForestClassifier precision : 0.8571428571428571
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.923076923076923
+RandomForestClassifier train time : 0.12765836715698242, sec
+RandomForestClassifier test time : 0.01894855499267578, sec
+
+
+LogisticRegression: 0.7142857142857143
+LogisticRegression accuracy : 0.7142857142857143
+LogisticRegression precision : 0.7142857142857143
+LogisticRegression recall : 0.7142857142857143
+LogisticRegression f1_score : 0.7142857142857143
+LogisticRegression train time : 0.009972333908081055, sec
+LogisticRegression test time : 0.000997304916381836, sec
+
+
+LinearDiscriminantAnalysis: 0.8571428571428571
+LinearDiscriminantAnalysis accuracy : 0.8571428571428571
+LinearDiscriminantAnalysis precision : 0.9285714285714286
+LinearDiscriminantAnalysis recall : 0.8571428571428571
+LinearDiscriminantAnalysis f1_score : 0.8744588744588745
+LinearDiscriminantAnalysis train time : 0.002991914749145508, sec
+LinearDiscriminantAnalysis test time : 0.001994609832763672, sec
+
+
+KNeighborsClassifier: 0.8571428571428571
+KNeighborsClassifier accuracy : 0.8571428571428571
+KNeighborsClassifier precision : 0.8571428571428571
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.923076923076923
+KNeighborsClassifier train time : 0.0019953250885009766, sec
+KNeighborsClassifier test time : 0.0039920806884765625, sec
+
+
+DecisionTreeClassifier: 0.8571428571428571
+DecisionTreeClassifier accuracy : 0.8571428571428571
+DecisionTreeClassifier precision : 0.8571428571428571
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.923076923076923
+DecisionTreeClassifier train time : 0.00299072265625, sec
+DecisionTreeClassifier test time : 0.0019948482513427734, sec
+
+
+SVC: 0.8571428571428571
+SVC accuracy : 0.8571428571428571
+SVC precision : 0.8571428571428571
+SVC recall : 1.0
+SVC f1_score : 0.923076923076923
+SVC train time : 0.002992391586303711, sec
+SVC test time : 0.0019948482513427734, sec
+
+
+GaussianNB: 0.7142857142857143
+GaussianNB accuracy : 0.7142857142857143
+GaussianNB precision : 0.7142857142857143
+GaussianNB recall : 0.7142857142857143
+GaussianNB f1_score : 0.7142857142857143
+GaussianNB train time : 0.002991199493408203, sec
+GaussianNB test time : 0.0019974708557128906, sec
+
+
+VotingClassifier: 0.8571428571428571
+VotingClassifier accuracy : 0.8571428571428571
+VotingClassifier precision : 0.8571428571428571
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.923076923076923
+VotingClassifier train time : 0.22191572189331055, sec
+VotingClassifier test time : 0.027924537658691406, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:06:09.309362 ~ Model v20
+RandomForestClassifier: 0.8888888888888888
+RandomForestClassifier accuracy : 0.8888888888888888
+RandomForestClassifier precision : 0.8888888888888888
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.9411764705882353
+RandomForestClassifier train time : 0.09279584884643555, sec
+RandomForestClassifier test time : 0.009977102279663086, sec
+
+
+LogisticRegression: 0.8888888888888888
+LogisticRegression accuracy : 0.8888888888888888
+LogisticRegression precision : 0.8888888888888888
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 0.9411764705882353
+LogisticRegression train time : 0.016956806182861328, sec
+LogisticRegression test time : 0.0009970664978027344, sec
+
+
+LinearDiscriminantAnalysis: 0.8888888888888888
+LinearDiscriminantAnalysis accuracy : 0.8888888888888888
+LinearDiscriminantAnalysis precision : 0.8888888888888888
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 0.9411764705882353
+LinearDiscriminantAnalysis train time : 0.002037525177001953, sec
+LinearDiscriminantAnalysis test time : 0.001951456069946289, sec
+
+
+KNeighborsClassifier: 0.8888888888888888
+KNeighborsClassifier accuracy : 0.8888888888888888
+KNeighborsClassifier precision : 0.8888888888888888
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.9411764705882353
+KNeighborsClassifier train time : 0.0010311603546142578, sec
+KNeighborsClassifier test time : 0.0019989013671875, sec
+
+
+DecisionTreeClassifier: 0.8888888888888888
+DecisionTreeClassifier accuracy : 0.8888888888888888
+DecisionTreeClassifier precision : 0.8888888888888888
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 0.9411764705882353
+DecisionTreeClassifier train time : 0.0010311603546142578, sec
+DecisionTreeClassifier test time : 0.0, sec
+
+
+SVC: 0.8888888888888888
+SVC accuracy : 0.8888888888888888
+SVC precision : 0.8888888888888888
+SVC recall : 1.0
+SVC f1_score : 0.9411764705882353
+SVC train time : 0.0009968280792236328, sec
+SVC test time : 0.0009975433349609375, sec
+
+
+GaussianNB: 0.8888888888888888
+GaussianNB accuracy : 0.8888888888888888
+GaussianNB precision : 0.8888888888888888
+GaussianNB recall : 1.0
+GaussianNB f1_score : 0.9411764705882353
+GaussianNB train time : 0.0019948482513427734, sec
+GaussianNB test time : 0.0010311603546142578, sec
+
+
+VotingClassifier: 0.8888888888888888
+VotingClassifier accuracy : 0.8888888888888888
+VotingClassifier precision : 0.8888888888888888
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.9411764705882353
+VotingClassifier train time : 0.1197211742401123, sec
+VotingClassifier test time : 0.012958288192749023, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:06:15.303413 ~ Model v21
+RandomForestClassifier: 0.7777777777777778
+RandomForestClassifier accuracy : 0.7777777777777778
+RandomForestClassifier precision : 0.7777777777777778
+RandomForestClassifier recall : 0.7777777777777778
+RandomForestClassifier f1_score : 0.7777777777777778
+RandomForestClassifier train time : 0.12365460395812988, sec
+RandomForestClassifier test time : 0.013478517532348633, sec
+
+
+LogisticRegression: 0.5555555555555556
+LogisticRegression accuracy : 0.5555555555555556
+LogisticRegression precision : 0.4166666666666667
+LogisticRegression recall : 0.5555555555555556
+LogisticRegression f1_score : 0.47619047619047616
+LogisticRegression train time : 0.015958786010742188, sec
+LogisticRegression test time : 0.001997232437133789, sec
+
+
+LinearDiscriminantAnalysis: 0.7777777777777778
+LinearDiscriminantAnalysis accuracy : 0.7777777777777778
+LinearDiscriminantAnalysis precision : 0.7777777777777778
+LinearDiscriminantAnalysis recall : 0.7777777777777778
+LinearDiscriminantAnalysis f1_score : 0.7777777777777778
+LinearDiscriminantAnalysis train time : 0.0020368099212646484, sec
+LinearDiscriminantAnalysis test time : 0.0009543895721435547, sec
+
+
+KNeighborsClassifier: 0.6666666666666666
+KNeighborsClassifier accuracy : 0.6666666666666666
+KNeighborsClassifier precision : 0.6666666666666666
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.8000000000000002
+KNeighborsClassifier train time : 0.001993894577026367, sec
+KNeighborsClassifier test time : 0.0019521713256835938, sec
+
+
+DecisionTreeClassifier: 0.6666666666666666
+DecisionTreeClassifier accuracy : 0.6666666666666666
+DecisionTreeClassifier precision : 0.7000000000000001
+DecisionTreeClassifier recall : 0.6666666666666666
+DecisionTreeClassifier f1_score : 0.6753246753246753
+DecisionTreeClassifier train time : 0.0009965896606445312, sec
+DecisionTreeClassifier test time : 0.000997304916381836, sec
+
+
+SVC: 0.6666666666666666
+SVC accuracy : 0.6666666666666666
+SVC precision : 0.6666666666666666
+SVC recall : 1.0
+SVC f1_score : 0.8000000000000002
+SVC train time : 0.0019941329956054688, sec
+SVC test time : 0.0009970664978027344, sec
+
+
+GaussianNB: 0.6666666666666666
+GaussianNB accuracy : 0.6666666666666666
+GaussianNB precision : 0.8333333333333334
+GaussianNB recall : 0.6666666666666666
+GaussianNB f1_score : 0.6666666666666666
+GaussianNB train time : 0.002034902572631836, sec
+GaussianNB test time : 0.0019521713256835938, sec
+
+
+VotingClassifier: 0.6666666666666666
+VotingClassifier accuracy : 0.6666666666666666
+VotingClassifier precision : 0.6428571428571428
+VotingClassifier recall : 0.6666666666666666
+VotingClassifier f1_score : 0.6461538461538461
+VotingClassifier train time : 0.13767409324645996, sec
+VotingClassifier test time : 0.014963150024414062, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:06:22.164185 ~ Model v22
+RandomForestClassifier: 0.7272727272727273
+RandomForestClassifier accuracy : 0.7272727272727273
+RandomForestClassifier precision : 0.7393939393939394
+RandomForestClassifier recall : 0.7272727272727273
+RandomForestClassifier f1_score : 0.7272727272727272
+RandomForestClassifier train time : 0.10875725746154785, sec
+RandomForestClassifier test time : 0.010966062545776367, sec
+
+
+LogisticRegression: 0.36363636363636365
+LogisticRegression accuracy : 0.36363636363636365
+LogisticRegression precision : 0.18181818181818182
+LogisticRegression recall : 0.36363636363636365
+LogisticRegression f1_score : 0.2424242424242424
+LogisticRegression train time : 0.011013269424438477, sec
+LogisticRegression test time : 0.000997304916381836, sec
+
+
+LinearDiscriminantAnalysis: 0.8181818181818182
+LinearDiscriminantAnalysis accuracy : 0.8181818181818182
+LinearDiscriminantAnalysis precision : 0.8701298701298701
+LinearDiscriminantAnalysis recall : 0.8181818181818182
+LinearDiscriminantAnalysis f1_score : 0.8151515151515152
+LinearDiscriminantAnalysis train time : 0.0010502338409423828, sec
+LinearDiscriminantAnalysis test time : 0.0009891986846923828, sec
+
+
+KNeighborsClassifier: 0.5454545454545454
+KNeighborsClassifier accuracy : 0.5454545454545454
+KNeighborsClassifier precision : 0.7727272727272727
+KNeighborsClassifier recall : 0.5454545454545454
+KNeighborsClassifier f1_score : 0.4588744588744589
+KNeighborsClassifier train time : 0.001020669937133789, sec
+KNeighborsClassifier test time : 0.0019948482513427734, sec
+
+
+DecisionTreeClassifier: 0.6363636363636364
+DecisionTreeClassifier accuracy : 0.6363636363636364
+DecisionTreeClassifier precision : 0.6688311688311688
+DecisionTreeClassifier recall : 0.6363636363636364
+DecisionTreeClassifier f1_score : 0.6303030303030303
+DecisionTreeClassifier train time : 0.0020055770874023438, sec
+DecisionTreeClassifier test time : 0.0, sec
+
+
+SVC: 0.45454545454545453
+SVC accuracy : 0.45454545454545453
+SVC precision : 0.4545454545454545
+SVC recall : 1.0
+SVC f1_score : 0.625
+SVC train time : 0.0010406970977783203, sec
+SVC test time : 0.00099945068359375, sec
+
+
+GaussianNB: 0.36363636363636365
+GaussianNB accuracy : 0.36363636363636365
+GaussianNB precision : 0.3522727272727273
+GaussianNB recall : 0.36363636363636365
+GaussianNB f1_score : 0.33100233100233095
+GaussianNB train time : 0.0009982585906982422, sec
+GaussianNB test time : 0.0010395050048828125, sec
+
+
+VotingClassifier: 0.5454545454545454
+VotingClassifier accuracy : 0.5454545454545454
+VotingClassifier precision : 0.7727272727272727
+VotingClassifier recall : 0.5454545454545454
+VotingClassifier f1_score : 0.4588744588744589
+VotingClassifier train time : 0.11772799491882324, sec
+VotingClassifier test time : 0.013919353485107422, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:06:27.024138 ~ Model v23
+RandomForestClassifier: 0.875
+RandomForestClassifier accuracy : 0.875
+RandomForestClassifier precision : 0.9166666666666666
+RandomForestClassifier recall : 0.875
+RandomForestClassifier f1_score : 0.8818181818181818
+RandomForestClassifier train time : 0.09769582748413086, sec
+RandomForestClassifier test time : 0.008977174758911133, sec
+
+
+LogisticRegression: 0.75
+LogisticRegression accuracy : 0.75
+LogisticRegression precision : 0.875
+LogisticRegression recall : 0.75
+LogisticRegression f1_score : 0.7666666666666667
+LogisticRegression train time : 0.009973526000976562, sec
+LogisticRegression test time : 0.0010416507720947266, sec
+
+
+LinearDiscriminantAnalysis: 0.75
+LinearDiscriminantAnalysis accuracy : 0.75
+LinearDiscriminantAnalysis precision : 0.75
+LinearDiscriminantAnalysis recall : 0.75
+LinearDiscriminantAnalysis f1_score : 0.75
+LinearDiscriminantAnalysis train time : 0.0009968280792236328, sec
+LinearDiscriminantAnalysis test time : 0.001039743423461914, sec
+
+
+KNeighborsClassifier: 0.75
+KNeighborsClassifier accuracy : 0.75
+KNeighborsClassifier precision : 0.75
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 0.8571428571428571
+KNeighborsClassifier train time : 0.0010409355163574219, sec
+KNeighborsClassifier test time : 0.00095367431640625, sec
+
+
+DecisionTreeClassifier: 0.875
+DecisionTreeClassifier accuracy : 0.875
+DecisionTreeClassifier precision : 0.9166666666666666
+DecisionTreeClassifier recall : 0.875
+DecisionTreeClassifier f1_score : 0.8818181818181818
+DecisionTreeClassifier train time : 0.0010387897491455078, sec
+DecisionTreeClassifier test time : 0.001953125, sec
+
+
+SVC: 0.75
+SVC accuracy : 0.75
+SVC precision : 0.75
+SVC recall : 1.0
+SVC f1_score : 0.8571428571428571
+SVC train time : 0.0020296573638916016, sec
+SVC test time : 0.000997781753540039, sec
+
+
+GaussianNB: 0.5
+GaussianNB accuracy : 0.5
+GaussianNB precision : 0.8333333333333334
+GaussianNB recall : 0.5
+GaussianNB f1_score : 0.5
+GaussianNB train time : 0.0019941329956054688, sec
+GaussianNB test time : 0.000997781753540039, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.11369562149047852, sec
+VotingClassifier test time : 0.015828371047973633, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:07:04.444737 ~ Model v24
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.10671401023864746, sec
+RandomForestClassifier test time : 0.009975671768188477, sec
+
+
+LogisticRegression: 1.0
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.01700615882873535, sec
+LogisticRegression test time : 0.0009477138519287109, sec
+
+
+LinearDiscriminantAnalysis: 1.0
+LinearDiscriminantAnalysis accuracy : 1.0
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 1.0
+LinearDiscriminantAnalysis train time : 0.002991914749145508, sec
+LinearDiscriminantAnalysis test time : 0.0009975433349609375, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.0009975433349609375, sec
+KNeighborsClassifier test time : 0.004010438919067383, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.0029599666595458984, sec
+DecisionTreeClassifier test time : 0.0009970664978027344, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.002991199493408203, sec
+SVC test time : 0.0009975433349609375, sec
+
+
+GaussianNB: 1.0
+GaussianNB accuracy : 1.0
+GaussianNB precision : 1.0
+GaussianNB recall : 1.0
+GaussianNB f1_score : 1.0
+GaussianNB train time : 0.001995086669921875, sec
+GaussianNB test time : 0.0009968280792236328, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.14258480072021484, sec
+VotingClassifier test time : 0.019992828369140625, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:09:33.508826 ~ Model v25
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.17453289031982422, sec
+RandomForestClassifier test time : 0.01595592498779297, sec
+
+
+LogisticRegression: 1.0
+LogisticRegression accuracy : 1.0
+LogisticRegression precision : 1.0
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 1.0
+LogisticRegression train time : 0.04618263244628906, sec
+LogisticRegression test time : 0.0010318756103515625, sec
+
+
+LinearDiscriminantAnalysis: 1.0
+LinearDiscriminantAnalysis accuracy : 1.0
+LinearDiscriminantAnalysis precision : 1.0
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 1.0
+LinearDiscriminantAnalysis train time : 0.01196599006652832, sec
+LinearDiscriminantAnalysis test time : 0.0019943714141845703, sec
+
+
+KNeighborsClassifier: 1.0
+KNeighborsClassifier accuracy : 1.0
+KNeighborsClassifier precision : 1.0
+KNeighborsClassifier recall : 1.0
+KNeighborsClassifier f1_score : 1.0
+KNeighborsClassifier train time : 0.004986763000488281, sec
+KNeighborsClassifier test time : 0.010971307754516602, sec
+
+
+DecisionTreeClassifier: 0.99609375
+DecisionTreeClassifier accuracy : 0.99609375
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 0.99609375
+DecisionTreeClassifier f1_score : 0.9980430528375733
+DecisionTreeClassifier train time : 0.006940603256225586, sec
+DecisionTreeClassifier test time : 0.003989219665527344, sec
+
+
+SVC: 1.0
+SVC accuracy : 1.0
+SVC precision : 1.0
+SVC recall : 1.0
+SVC f1_score : 1.0
+SVC train time : 0.007032871246337891, sec
+SVC test time : 0.0029397010803222656, sec
+
+
+GaussianNB: 0.92578125
+GaussianNB accuracy : 0.92578125
+GaussianNB precision : 1.0
+GaussianNB recall : 0.92578125
+GaussianNB f1_score : 0.9614604462474645
+GaussianNB train time : 0.005941867828369141, sec
+GaussianNB test time : 0.0019943714141845703, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.2337021827697754, sec
+VotingClassifier test time : 0.035948991775512695, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:10:10.748718 ~ Model v26
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.11772894859313965, sec
+RandomForestClassifier test time : 0.009975194931030273, sec
+
+
+LogisticRegression: 0.75
+LogisticRegression accuracy : 0.75
+LogisticRegression precision : 0.7583056478405316
+LogisticRegression recall : 0.75
+LogisticRegression f1_score : 0.753409090909091
+LogisticRegression train time : 0.0189969539642334, sec
+LogisticRegression test time : 0.0009515285491943359, sec
+
+
+LinearDiscriminantAnalysis: 0.96875
+LinearDiscriminantAnalysis accuracy : 0.96875
+LinearDiscriminantAnalysis precision : 0.9717261904761905
+LinearDiscriminantAnalysis recall : 0.96875
+LinearDiscriminantAnalysis f1_score : 0.9691761363636364
+LinearDiscriminantAnalysis train time : 0.002991914749145508, sec
+LinearDiscriminantAnalysis test time : 0.000997781753540039, sec
+
+
+KNeighborsClassifier: 0.65625
+KNeighborsClassifier accuracy : 0.65625
+KNeighborsClassifier precision : 0.5782424812030075
+KNeighborsClassifier recall : 0.65625
+KNeighborsClassifier f1_score : 0.597143665158371
+KNeighborsClassifier train time : 0.001995086669921875, sec
+KNeighborsClassifier test time : 0.003989696502685547, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.001993417739868164, sec
+DecisionTreeClassifier test time : 0.0009961128234863281, sec
+
+
+SVC: 0.703125
+SVC accuracy : 0.703125
+SVC precision : 0.703125
+SVC recall : 1.0
+SVC f1_score : 0.8256880733944955
+SVC train time : 0.007974624633789062, sec
+SVC test time : 0.0049877166748046875, sec
+
+
+GaussianNB: 0.9375
+GaussianNB accuracy : 0.9375
+GaussianNB precision : 0.9483695652173914
+GaussianNB recall : 0.9375
+GaussianNB f1_score : 0.9390227021040974
+GaussianNB train time : 0.0020363330841064453, sec
+GaussianNB test time : 0.0019526481628417969, sec
+
+
+VotingClassifier: 1.0
+VotingClassifier accuracy : 1.0
+VotingClassifier precision : 1.0
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 1.0
+VotingClassifier train time : 0.1436173915863037, sec
+VotingClassifier test time : 0.020984649658203125, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:12:39.366147 ~ Model v27
+RandomForestClassifier: 0.98828125
+RandomForestClassifier accuracy : 0.98828125
+RandomForestClassifier precision : 0.98828125
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 0.9941060903732809
+RandomForestClassifier train time : 0.14371418952941895, sec
+RandomForestClassifier test time : 0.01201009750366211, sec
+
+
+LogisticRegression: 0.98828125
+LogisticRegression accuracy : 0.98828125
+LogisticRegression precision : 0.98828125
+LogisticRegression recall : 1.0
+LogisticRegression f1_score : 0.9941060903732809
+LogisticRegression train time : 0.05880308151245117, sec
+LogisticRegression test time : 0.0019941329956054688, sec
+
+
+LinearDiscriminantAnalysis: 0.98828125
+LinearDiscriminantAnalysis accuracy : 0.98828125
+LinearDiscriminantAnalysis precision : 0.98828125
+LinearDiscriminantAnalysis recall : 1.0
+LinearDiscriminantAnalysis f1_score : 0.9941060903732809
+LinearDiscriminantAnalysis train time : 0.010166168212890625, sec
+LinearDiscriminantAnalysis test time : 0.000997304916381836, sec
+
+
+KNeighborsClassifier: 0.96875
+KNeighborsClassifier accuracy : 0.96875
+KNeighborsClassifier precision : 0.9764691235059761
+KNeighborsClassifier recall : 0.96875
+KNeighborsClassifier f1_score : 0.9725942460317459
+KNeighborsClassifier train time : 0.00399327278137207, sec
+KNeighborsClassifier test time : 0.011015176773071289, sec
+
+
+DecisionTreeClassifier: 0.98046875
+DecisionTreeClassifier accuracy : 0.98046875
+DecisionTreeClassifier precision : 0.9766086368110236
+DecisionTreeClassifier recall : 0.98046875
+DecisionTreeClassifier f1_score : 0.9785348865877712
+DecisionTreeClassifier train time : 0.0060198307037353516, sec
+DecisionTreeClassifier test time : 0.001958608627319336, sec
+
+
+SVC: 0.98828125
+SVC accuracy : 0.98828125
+SVC precision : 0.98828125
+SVC recall : 1.0
+SVC f1_score : 0.9941060903732809
+SVC train time : 0.009976863861083984, sec
+SVC test time : 0.003943920135498047, sec
+
+
+GaussianNB: 0.92578125
+GaussianNB accuracy : 0.92578125
+GaussianNB precision : 0.975927734375
+GaussianNB recall : 0.92578125
+GaussianNB f1_score : 0.950193331643002
+GaussianNB train time : 0.004986763000488281, sec
+GaussianNB test time : 0.0019948482513427734, sec
+
+
+VotingClassifier: 0.98828125
+VotingClassifier accuracy : 0.98828125
+VotingClassifier precision : 0.98828125
+VotingClassifier recall : 1.0
+VotingClassifier f1_score : 0.9941060903732809
+VotingClassifier train time : 0.22818303108215332, sec
+VotingClassifier test time : 0.03387141227722168, sec
+
+
+
+--------------------
+
+
+2022-05-31 07:15:07.648597 ~ Model v28
+RandomForestClassifier: 1.0
+RandomForestClassifier accuracy : 1.0
+RandomForestClassifier precision : 1.0
+RandomForestClassifier recall : 1.0
+RandomForestClassifier f1_score : 1.0
+RandomForestClassifier train time : 0.14162206649780273, sec
+RandomForestClassifier test time : 0.013007164001464844, sec
+
+
+LogisticRegression: 0.98828125
+LogisticRegression accuracy : 0.98828125
+LogisticRegression precision : 0.9886037844036697
+LogisticRegression recall : 0.98828125
+LogisticRegression f1_score : 0.9883038231148698
+LogisticRegression train time : 0.044830322265625, sec
+LogisticRegression test time : 0.0019948482513427734, sec
+
+
+LinearDiscriminantAnalysis: 0.98828125
+LinearDiscriminantAnalysis accuracy : 0.98828125
+LinearDiscriminantAnalysis precision : 0.9886037844036697
+LinearDiscriminantAnalysis recall : 0.98828125
+LinearDiscriminantAnalysis f1_score : 0.9883038231148698
+LinearDiscriminantAnalysis train time : 0.009926557540893555, sec
+LinearDiscriminantAnalysis test time : 0.0018029212951660156, sec
+
+
+KNeighborsClassifier: 0.58984375
+KNeighborsClassifier accuracy : 0.58984375
+KNeighborsClassifier precision : 0.6269291035950804
+KNeighborsClassifier recall : 0.58984375
+KNeighborsClassifier f1_score : 0.5895621137560082
+KNeighborsClassifier train time : 0.003988981246948242, sec
+KNeighborsClassifier test time : 0.010971307754516602, sec
+
+
+DecisionTreeClassifier: 1.0
+DecisionTreeClassifier accuracy : 1.0
+DecisionTreeClassifier precision : 1.0
+DecisionTreeClassifier recall : 1.0
+DecisionTreeClassifier f1_score : 1.0
+DecisionTreeClassifier train time : 0.006979227066040039, sec
+DecisionTreeClassifier test time : 0.0020380020141601562, sec
+
+
+SVC: 0.5859375
+SVC accuracy : 0.5859375
+SVC precision : 0.5859375
+SVC recall : 1.0
+SVC f1_score : 0.7389162561576355
+SVC train time : 0.04986763000488281, sec
+SVC test time : 0.021940231323242188, sec
+
+
+GaussianNB: 0.98828125
+GaussianNB accuracy : 0.98828125
+GaussianNB precision : 0.9886037844036697
+GaussianNB recall : 0.98828125
+GaussianNB f1_score : 0.9883038231148698
+GaussianNB train time : 0.011451005935668945, sec
+GaussianNB test time : 0.003990888595581055, sec
+
+
+VotingClassifier: 0.99609375
+VotingClassifier accuracy : 0.99609375
+VotingClassifier precision : 0.9961302570093458
+VotingClassifier recall : 0.99609375
+VotingClassifier f1_score : 0.9960963874103036
+VotingClassifier train time : 0.3292365074157715, sec
+VotingClassifier test time : 0.04886937141418457, sec
+
+
